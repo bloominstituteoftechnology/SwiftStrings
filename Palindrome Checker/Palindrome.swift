@@ -9,21 +9,15 @@
 import Foundation
 
 func isPalindrome(_ string: String) -> Bool {
-    var forwardStripped = ""
-    var reverseStripped = ""
     
+    // Remove all non-letters
     let letters = "abcdefghijklmnopqrstuvwxyz"
-    
+    var strippedString = ""
     for character in string.lowercased() {
         if letters.contains(character) {
-            forwardStripped.append(character)
-        }
-    }
-    for character in String(string.reversed()).lowercased() {
-        if letters.contains(character) {
-            reverseStripped.append(character)
+            strippedString.append(character)
         }
     }
     
-    return forwardStripped == reverseStripped
+    return strippedString == String(strippedString.reversed())
 }
