@@ -1,8 +1,8 @@
 # SwiftStrings
 
-This project will help you practice the skills and concepts you weren't related to strings in Swift. For this project you'll build an app with a text field for the user to enter a string. When they tap the button, you're app should check to see if the string may entered is the palindrome. If it is a palindrome, it should update a label to say "[string] is a palindrome!" where `[string]` is the string the user entered.
+This project will help you practice the skills and concepts you weren't related to strings in Swift. For this project you'll build an app with a text field for the user to enter a string. When they tap the button, you're app should check to see if the string may entered is the palindrome. If it is a palindrome, it should update a label to say "[string] is a palindrome!" where `[string]` is the string the user entered. Spaces in the input string should be ignored.
 
-> A palindrome is a word or phrase that is the same whether spelled forward or backwards, for example `madam`, or `racecar`.
+> A palindrome is a word or phrase that is the same whether spelled forward or backwards, for example `madam`, `racecar`, or `was it a rat i saw`.
 
 ### Create an Xcode Project
 
